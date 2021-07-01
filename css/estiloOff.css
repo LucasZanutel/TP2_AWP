@@ -1,0 +1,109 @@
+html {
+	font-family: 'Raleway', sans-serif;
+    line-height: 1.4em;
+	color: black;
+}
+
+.borde1{
+	border: 1px solid red;
+}
+
+.fondo1{
+    background-color:yellowgreen;
+}
+
+.fondo2{
+    background-color:rgb(203, 230, 150);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+    background-image: url(../img/green.jpg);
+}
+
+header{
+    line-height: 1.4em;
+	background-color: #e1f8d6;
+	height: 110px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 2px solid black;
+	z-index: 5;
+}
+
+h1{	
+	font-size: 0px;
+	height: 90px;
+	background-image: url(../img/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-top: 10px;
+}
+
+
+main{
+	margin-top: 110px;
+    min-height: calc(100vh - 150px);
+	background-color: rgb(239, 255, 233);
+}
+
+
+.botonera li{
+	display: inline;
+}
+
+
+.botonera li{
+	height: 200px;
+}
+
+.botonera li a{
+	height: 150px;
+	display: inline-block;
+	color: black;
+}
+
+.l1 a{
+    background:url(../img/copaamerica2.jpg) center no-repeat;
+}
+
+.l3 a{
+    background:url(../img/restomundo2.jpg) center no-repeat;
+}
+
+.l1 a, .l3 a{
+	font-size: 1em;
+    padding-top: 150px;
+}
+
+.h2offl{
+		color: rgb(4, 133, 4);
+		font-size: 2em;
+		width: 100%;
+		text-align: center;
+}
+
+.h2off{
+		color: rgb(133, 19, 4);
+		font-size: 2em;
+		width: 100%;
+		text-align: center;
+}
+
+footer{
+	background-color: #e1f8d6;
+	color: black;
+	padding-bottom: 10px;
+}
