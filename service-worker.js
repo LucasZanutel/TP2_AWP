@@ -24,8 +24,7 @@ self.addEventListener('install', event => {
   event.waitUntil(
       // Abro el cache, entonces agrego los archivos/recursos
       caches.open(cacheName).then(cache => {
-        console.log('cache NO cargado' )
-        return cache.addAll(precache)
+          return cache.addAll(precache)
       })
   );
 });
@@ -35,9 +34,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
 
   const cacheWhitelist = [cacheName];
-  console.log(cacheWhitelist)
-  console.log(precache)
-
+  
   // Esto es lo que updatea cada una de las keys en el mapa del caché
   event.waitUntil(
       // Tomo las keys y las paso para revisar individualmente
